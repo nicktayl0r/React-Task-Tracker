@@ -1,0 +1,51 @@
+* {
+    font-family: sans-serif;
+}
+
+.board {
+    max-width: 100%;
+    margin: none;
+    box-sizing: border-box;
+    float: left;
+    display: flex;
+}
+
+.header {
+    border: 1px solid black;
+    text-align: center;
+    margin-bottom: 2px;
+    display: block;
+}
+  
+.lane {
+    /* width: 25%; */
+    display: inline-block;
+    min-width: 25%;
+    position: relative;
+    border: 1px solid black;
+    box-sizing: border-box;
+    vertical-align: top;
+    margin: 2px;
+    min-height: 100vh;
+}
+
+.task {
+    border: 1px solid black;
+    margin: 1px;
+    padding: 8px;
+    box-sizing: border-box;
+    
+}
+
+.lane-header {
+    text-align: center;
+}
+
+form {
+    overflow: hidden;
+}
+input {
+    float: right;
+    clear: both;
+    width: 80%;
+}
